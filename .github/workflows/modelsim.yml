@@ -29,6 +29,6 @@ jobs:
       - name: Add ModelSim to PATH
         run: echo "$HOME/intelFPGA/20.1/modelsim_ase/bin" >> $GITHUB_PATH
       - name: Lint
-        run: vcom $GITHUB_WORKSPACE/src/add_sub.vhdl -lint
+        run: vcom $GITHUB_WORKSPACE/src/add_sub.vhd -lint
       - name: Top Testbench
         run: cd $GITHUB_WORKSPACE/sim/top_tb/ && hdlmake fetch && hdlmake && make
