@@ -1,3 +1,3 @@
 files=[
-    "add_sub.vhdl"
+    "add_sub.vhd"
 ]
