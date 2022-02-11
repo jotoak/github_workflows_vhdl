@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_eda",
+		"comment" : "not_applicable",
+		"error_message" : "bus_port->has_type()",
+		"source_file" : "/quartus/neto/tbo/tbo_common_vec_writer.cpp",
+		"line" : "281",
+		"stack_trace" : "\t0x7ffbe945872c: NETO_TBO + 0x872c (?get_port_type@TBO_COMMON_VEC_WRITER@@IEAAPEAVHDB_TYPE@@PEAVHDB_INSTANCE_NAME@@@Z + 0x6c)\n\t0x7ffbe9460d1c: NETO_TBO + 0x10d1c (?write_tbo_data_package@TBO_VHD_TPT_WRITER@@IEAAXXZ + 0x7c)\n\t0x7ffbe945ff91: NETO_TBO + 0xff91 (?write_file@TBO_VHD_TPT_WRITER@@UEAA_NXZ + 0x1d1)\n\t0x7ffbe9455bd8: NETO_TBO + 0x5bd8 (?write_file@TBO_WRITER@@QEAA_NPEBVVDB_DATA@@PEAVHDB_NAMESPACE@@W4TBO_DATA_TYPE@@AEBVBIG_TIME@@@Z + 0x4c8)\n\t0x7ffbe9454a2f: NETO_TBO + 0x4a2f (?write_testbench_file@TBO_BUILDER@@QEAA?AW4TBO_WRITE_STATUS@@XZ + 0x1af)\n\t0x7ff63ea38e53: quartus_eda + 0x28e53 (qneto_generate_testbench + 0xb73)\n\t0x7ff63ea3812f: quartus_eda + 0x2812f (?qneto_execute@@YA_NPEAVCMP_FACADE@@PEBD_N2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@332AEBVQEDAU_UTIL@@@Z + 0xaf)\n\t0x7ff63ea19b88: quartus_eda + 0x9b88 (?execute@QNETO_FRAMEWORK@@UEAA_NXZ + 0x288)\n\t0x7ffc137112bc: comp_qexe + 0x112bc (qexe_do_normal + 0x1ec)\n\t0x7ffc13716142: comp_qexe + 0x16142 (qexe_run + 0x432)\n\t0x7ffc13716e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff63ea1faad: quartus_eda + 0xfaad (?qneto_main@@YAHHPEAPEBD@Z + 0x9d)\n\t0x7ffc363e2e98: CCL_MSG + 0x12e98 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffc363e467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffc364e6660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffc363e2761: CCL_MSG + 0x12761 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff63ea39bc2: quartus_eda + 0x29bc2 (__tmainCRTStartup + 0x10e)\n\t0x7ffc574554df: KERNEL32 + 0x154df (BaseThreadInitThunk + 0xf)\n\t0x7ffc5836485a: ntdll + 0x485a (RtlUserThreadStart + 0x2a)\n",
+		"subsystem" : "TBO"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.0",
+		"build" : "625",
+		"edition" : "Lite Edition"
+	}
+}
