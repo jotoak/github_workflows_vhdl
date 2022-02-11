@@ -1,4 +1,4 @@
-yourfilenames=`ls $GITHUB_WORKSPACE/src/*.vhd`
+yourfilenames=`ls src/*.vhd`
 for eachfile in $yourfilenames
 do
    vcom $eachfile  -lint
