@@ -1,5 +1,5 @@
 files = [
-    "add_sub_tb.sv",
+    "add_sub_tb.vhdl",
 ]
 
 modules = {
