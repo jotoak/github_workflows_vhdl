@@ -1,4 +1,4 @@
-# Github workflows for RTL designe
+# Github workflows for RTL design
 
 This reposetory is based on github actions found at <https://purisa.me/blog/testing-hdl-on-github/>
 
@@ -30,6 +30,6 @@ What are some of the things to consider when using this automated workflow?
   pull_request:
     branches: [ master ]
 ```  
-
 so it only runs on push and pull request to master ignoring other branches, currently it runs on push to all branches. 
+
 3. From my limited testing the workflow seams to failed with System Verilog, at least it failed for me with the `randomize` keyword.
